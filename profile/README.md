@@ -27,78 +27,13 @@
 
 ---
 
-## Project Landscape
+## Public Projects
 
-### 🧠 Core Intelligence — Agent OS
-
-| Project | Description | Stack | Status | Access |
-|:--------|:------------|:-----:|:------:|:------:|
-| **[neoclaw](https://github.com/opensourceclaw/neoclaw)** | Agent Orchestration — multi-agent dispatch, governance, execution engine, cross-domain signals | Python / TS | active | private |
-| **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory — working, episodic, procedural memory with semantic retrieval | Python / TS | active | **public** |
-| **[claw-rl](https://github.com/opensourceclaw/claw-rl)** | Reinforcement Learning — continual learning, meta-learning, self-evolution | Python / TS | active | **public** |
-| **[claw-cog](https://github.com/opensourceclaw/claw-cog)** | Cognitive Layer — C0-C1-C2 consciousness architecture, metacognitive monitoring | Python / TS | active | **public** |
-| **[claw-gov](https://github.com/opensourceclaw/claw-gov)** | Governance Layer — L1-L6 safety pipeline, value alignment | Python / TS | active | private |
-| **[claw-rsi](https://github.com/opensourceclaw/claw-rsi)** | Recursive Self-Improvement — meta-cognitive self-evolution engine | TS | active | private |
-
-### ⚡ Engineering Platform
-
-| Project | Description | Stack | Status |
-|:--------|:------------|:-----:|:------:|
-| **[devclaw](https://github.com/opensourceclaw/devclaw)** | AI-Native Digital Engineering — private silicon software engineer | Python / TS | active |
-| **[deepclaw](https://github.com/opensourceclaw/deepclaw)** | Deep Research Framework — automated research and analysis | Python | active |
-| **[workclaw](https://github.com/opensourceclaw/workclaw)** | Workflow Intelligence — task orchestration and automation agent | - | active |
-
-### 🔗 Protocol Layer — Project Grid
-
-| Project | Description | Stack | Status |
-|:--------|:------------|:-----:|:------:|
-| **[claw-net](https://github.com/opensourceclaw/claw-net)** | Network consensus and communication protocol | Python | active |
-| **[claw-link](https://github.com/opensourceclaw/claw-link)** | Cross-instance linking protocol | Python / TS | active |
-| **[claw-bridge](https://github.com/opensourceclaw/claw-bridge)** | Inter-instance bridge layer | Python | active |
-
-### 🌍 Public Packages (installable)
-
-| Package | Install | Description | Latest |
-|:--------|:--------|:------------|:------:|
-| **[claw-mem](https://pypi.org/project/claw-mem/)** | `pip install claw-mem` | Three-tier memory with semantic search, experience compression, online learning | v5.x |
-| **[claw-rl](https://pypi.org/project/claw-rl/)** | `pip install claw-rl` | RL framework with process rewards, online learning, meta-learning | v5.x |
-| **[claw-cog](https://pypi.org/project/claw-cog/)** | `pip install claw-cog` | Cognitive layer — C0-C1-C2 human-like consciousness architecture | v5.x |
-
----
-
-## System Architecture
-
-```
-
-                     ┌─────────────┐
-                     │   neoclaw   │ Agent Orchestration
-                     │   (Orch)    │
-                     └──────┬──────┘
-           ┌────────────────┼────────────────┐
-           ▼                ▼                ▼
-    ┌────────────┐  ┌────────────┐  ┌────────────┐
-    │  claw-mem  │  │  claw-cog  │  │  claw-rl   │
-    │  Memory    │  │ Cognitive  │  │  Learning  │
-    └────────────┘  └────────────┘  └────────────┘
-           │                                      │
-           ▼                                      ▼
-    ┌────────────┐                         ┌────────────┐
-    │  claw-gov  │  Safety & Alignment    │  claw-rsi   │
-    └────────────┘                         │ Self-Improv │
-                                           └────────────┘
-
-                     ┌──────────────────────────┐
-                     │  claw-net · claw-link     │
-                     │   · claw-bridge            │
-                     │    Protocol Layer (Grid)   │
-                     └──────────────────────────┘
-
-                     ┌──────────────────────────┐
-                     │  devclaw · workclaw       │
-                     │   · deepclaw               │
-                     │    Engineering Platform   │
-                     └──────────────────────────┘
-```
+| Project | Description | Install | Stack | Latest |
+|:--------|:------------|:--------|:-----:|:------:|
+| **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory System — working, episodic, procedural memory with semantic retrieval and experience compression | `pip install claw-mem` | Python / TS | v5.x |
+| **[claw-rl](https://github.com/opensourceclaw/claw-rl)** | Reinforcement Learning — continual learning, meta-learning, self-evolution with MUSE capability awareness | `pip install claw-rl` | Python / TS | v5.x |
+| **[claw-cog](https://github.com/opensourceclaw/claw-cog)** | Cognitive Layer — C0-C1-C2 consciousness architecture with metacognitive monitoring and anomaly detection | `pip install claw-cog` | Python / TS | v5.x |
 
 ---
 
@@ -118,15 +53,14 @@
 | Role | Person |
 |:-----|:-------|
 | **Founder & Maintainer** | [Peter Cheng](https://github.com/petercheng) |
-| **Strategic Architect** | Friday AI — system design, roadmap, architecture |
-| **Coding Engineer** | Jarvis — implementation, testing, delivery |
+| **Strategic Architect** | Friday AI |
+| **Coding Engineer** | Jarvis |
 
 ---
 
 ## License
 
-Public projects are licensed under **Apache 2.0**.  
-Private projects are for internal R&D use.
+All public projects are licensed under **Apache 2.0**.
 
 ---
 
