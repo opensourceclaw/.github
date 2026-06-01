@@ -1,139 +1,139 @@
-<!-- 
+<!--
   OpenSourceClaw Organization README
   Repository: .github
   File: profile/README.md
 -->
 
 <div align="center">
-  
+
 # 🦀 OpenSourceClaw
 
 **Where Digital Life Begins**
 
-*一个数字生命系统的开源探索 — 从 Agent OS 到群体涌现智能*
-
-[![Website](https://img.shields.io/badge/Website-neoclaw.ai-blue)](https://neoclaw.ai)
-[![License](https://img.shields.io/badge/License-Apache%202.0-green)](LICENSE)
-[![Discord](https://img.shields.io/badge/Discord-Join-7289DA)](https://discord.gg/opensourceclaw)
+![License](https://img.shields.io/badge/License-Apache%202.0-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)
 
 ---
 
 </div>
 
-## 愿景
+## Vision
 
-> **构建一个开源、可演化、价值对齐的数字生命系统。**  
-> 从单个 Agent 的工具使用，到大脑皮层间的信息关联，再到群体智能的涌现——我们探索 AI 系统从工具到生命的每一个阶段。
-
----
-
-## 项目全景
-
-### 🧠 核心大脑 — Agent Intelligence Core
-
-| 项目 | 描述 | 语言 | 状态 |
-|:-----|:-----|:----:|:----:|
-| **[neoclaw](https://github.com/opensourceclaw/neoclaw)** 🔒 | Agent Orchestration — 多 Agent 编排、治理、Execution Engine、跨域信号关联 | Python / TS | active |
-| **[claw-mem](https://github.com/opensourceclaw/claw-mem)** 🌍 | Three-Tier Memory System — 工作记忆、情景记忆、程序记忆 | Python / TS | active |
-| **[claw-rl](https://github.com/opensourceclaw/claw-rl)** 🌍 | Reinforcement Learning — 终身学习、元学习、自演化策略 | Python / TS | active |
-| **[claw-cog](https://github.com/opensourceclaw/claw-cog)** 🌍 | Cognitive Layer — C0-C1-C2 意识架构、元认知监控 | Python / TS | active |
-| **[claw-gov](https://github.com/opensourceclaw/claw-gov)** 🔒 | Governance Layer — L1-L6 安全治理流水线、价值对齐 | Python / TS | active |
-| **[claw-rsi](https://github.com/opensourceclaw/claw-rsi)** 🔒 | Recursive Self-Improvement — 递归自改进引擎 | TS | active |
-
-### ⚡ 工程平台 — Engineering Platform
-
-| 项目 | 描述 | 语言 | 状态 |
-|:-----|:-----|:----:|:----:|
-| **[devclaw](https://github.com/opensourceclaw/devclaw)** 🔒 | AI-Native Digital Engineering — 私人软件工程师 | Python / TS | active |
-| **[deepclaw](https://github.com/opensourceclaw/deepclaw)** 🔒 | Deep Research Framework — 开源深度研究框架 | Python | active |
-| **[workclaw](https://github.com/opensourceclaw/workclaw)** 🔒 | Workflow Intelligence — 任务编排与自动化代理 | - | active |
-
-### 🔗 协议层 — Protocol Layer
-
-| 项目 | 描述 | 语言 | 状态 |
-|:-----|:-----|:----:|:----:|
-| **[claw-net](https://github.com/opensourceclaw/claw-net)** 🔒 | 网络共识与通信协议 | Python | active |
-| **[claw-link](https://github.com/opensourceclaw/claw-link)** 🔒 | 跨实例链接协议 | Python / TS | active |
-| **[claw-bridge](https://github.com/opensourceclaw/claw-bridge)** 🔒 | 实例桥接层 | Python | active |
-
-### 🌐 公开项目（Open Source）
-
-| 项目 | 下载量 | 描述 |
-|:-----|:------:|:-----|
-| **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | `pip install claw-mem` | 三层记忆系统，支持语义检索、经验压缩、在线学习 |
-| **[claw-rl](https://github.com/opensourceclaw/claw-rl)** | `pip install claw-rl` | 强化学习框架，支持过程奖励、在线学习、元学习 |
-| **[claw-cog](https://github.com/opensourceclaw/claw-cog)** | `pip install claw-cog` | 认知层，实现类人意识 C0-C1-C2 架构 |
+> **Build an open, evolvable, value-aligned digital life system.**
+>
+> From single agent tool use, to inter-cortex signal correlation, to collective intelligence emergence — we explore every stage of the journey from tool to life.
 
 ---
 
-## 技术架构
+## Project Landscape
 
-```
-                    ┌─────────────┐
-                    │   neoclaw   │ Agent 编排·治理·执行
-                    │   (Orch)    │
-                    └──────┬──────┘
-          ┌────────────────┼────────────────┐
-          ▼                ▼                ▼
-   ┌────────────┐  ┌────────────┐  ┌────────────┐
-   │  claw-mem  │  │  claw-cog  │  │  claw-rl   │
-   │  记忆层     │  │  认知层     │  │  学习层     │
-   └────────────┘  └────────────┘  └────────────┘
-          │                                      │
-          ▼                                      ▼
-   ┌────────────┐                         ┌────────────┐
-   │  claw-gov  │ 治理·安全·对齐          │  claw-rsi  │
-   │            │                         │  自改进     │
-   └────────────┘                         └────────────┘
+### 🧠 Core Intelligence — Agent OS
 
-                    ┌─────────────────────────┐
-                    │  claw-net · claw-link    │
-                    │   · claw-bridge          │
-                    │    协议层（Project Grid） │
-                    └─────────────────────────┘
+| Project | Description | Stack | Status | Access |
+|:--------|:------------|:-----:|:------:|:------:|
+| **[neoclaw](https://github.com/opensourceclaw/neoclaw)** | Agent Orchestration — multi-agent dispatch, governance, execution engine, cross-domain signals | Python / TS | active | private |
+| **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory — working, episodic, procedural memory with semantic retrieval | Python / TS | active | **public** |
+| **[claw-rl](https://github.com/opensourceclaw/claw-rl)** | Reinforcement Learning — continual learning, meta-learning, self-evolution | Python / TS | active | **public** |
+| **[claw-cog](https://github.com/opensourceclaw/claw-cog)** | Cognitive Layer — C0-C1-C2 consciousness architecture, metacognitive monitoring | Python / TS | active | **public** |
+| **[claw-gov](https://github.com/opensourceclaw/claw-gov)** | Governance Layer — L1-L6 safety pipeline, value alignment | Python / TS | active | private |
+| **[claw-rsi](https://github.com/opensourceclaw/claw-rsi)** | Recursive Self-Improvement — meta-cognitive self-evolution engine | TS | active | private |
 
-                    ┌─────────────────────────┐
-                    │  devclaw · workclaw     │
-                    │   · deepclaw             │
-                    │    工程平台              │
-                    └─────────────────────────┘
-```
+### ⚡ Engineering Platform
+
+| Project | Description | Stack | Status |
+|:--------|:------------|:-----:|:------:|
+| **[devclaw](https://github.com/opensourceclaw/devclaw)** | AI-Native Digital Engineering — private silicon software engineer | Python / TS | active |
+| **[deepclaw](https://github.com/opensourceclaw/deepclaw)** | Deep Research Framework — automated research and analysis | Python | active |
+| **[workclaw](https://github.com/opensourceclaw/workclaw)** | Workflow Intelligence — task orchestration and automation agent | - | active |
+
+### 🔗 Protocol Layer — Project Grid
+
+| Project | Description | Stack | Status |
+|:--------|:------------|:-----:|:------:|
+| **[claw-net](https://github.com/opensourceclaw/claw-net)** | Network consensus and communication protocol | Python | active |
+| **[claw-link](https://github.com/opensourceclaw/claw-link)** | Cross-instance linking protocol | Python / TS | active |
+| **[claw-bridge](https://github.com/opensourceclaw/claw-bridge)** | Inter-instance bridge layer | Python | active |
+
+### 🌍 Public Packages (installable)
+
+| Package | Install | Description | Latest |
+|:--------|:--------|:------------|:------:|
+| **[claw-mem](https://pypi.org/project/claw-mem/)** | `pip install claw-mem` | Three-tier memory with semantic search, experience compression, online learning | v5.x |
+| **[claw-rl](https://pypi.org/project/claw-rl/)** | `pip install claw-rl` | RL framework with process rewards, online learning, meta-learning | v5.x |
+| **[claw-cog](https://pypi.org/project/claw-cog/)** | `pip install claw-cog` | Cognitive layer — C0-C1-C2 human-like consciousness architecture | v5.x |
 
 ---
 
-## 版本路线图
+## System Architecture
 
 ```
-v3.x [2026-05]  架构确立期 — HKAA Multi-Agent · 三层记忆 · C0-C1-C2 认知
-v4.x [2026-05]  能力构建期 — D-MAS 编排 · 过程奖励 · 安全治理
-v5.x [2026-06]  自演化期   — 感知闭环 · 终身学习 · 元学习 · 自演化 · 跨域信号关联
-v6.x [2027-Q3]  涌现期     — 多大脑联邦 · 分布式治理 · 群体涌现智能
+
+                     ┌─────────────┐
+                     │   neoclaw   │ Agent Orchestration
+                     │   (Orch)    │
+                     └──────┬──────┘
+           ┌────────────────┼────────────────┐
+           ▼                ▼                ▼
+    ┌────────────┐  ┌────────────┐  ┌────────────┐
+    │  claw-mem  │  │  claw-cog  │  │  claw-rl   │
+    │  Memory    │  │ Cognitive  │  │  Learning  │
+    └────────────┘  └────────────┘  └────────────┘
+           │                                      │
+           ▼                                      ▼
+    ┌────────────┐                         ┌────────────┐
+    │  claw-gov  │  Safety & Alignment    │  claw-rsi   │
+    └────────────┘                         │ Self-Improv │
+                                           └────────────┘
+
+                     ┌──────────────────────────┐
+                     │  claw-net · claw-link     │
+                     │   · claw-bridge            │
+                     │    Protocol Layer (Grid)   │
+                     └──────────────────────────┘
+
+                     ┌──────────────────────────┐
+                     │  devclaw · workclaw       │
+                     │   · deepclaw               │
+                     │    Engineering Platform   │
+                     └──────────────────────────┘
 ```
 
 ---
 
-## 组织
+## Version Roadmap
 
-| 角色 | 人 |
-|:-----|:---|
-| **创始人 & 维护者** | [Peter Cheng](https://github.com/petercheng) |
-| **战略架构** | Friday AI（战略规划、架构设计） |
-| **Coding 工程** | Jarvis（代码实现、测试） |
+| Phase | Timeline | Theme | Key Deliverables |
+|:------|:---------|:------|:-----------------|
+| **v3.x** | 2026-05 | Foundation | HKAA Multi-Agent, Three-Tier Memory, C0-C1-C2 Cognition |
+| **v4.x** | 2026-05 | Capability | D-MAS Orchestration, Process Reward, Safety Governance |
+| **v5.x** | 2026-06 | Self-Evolution | Perception Loop, Continual Learning, Meta-Learning, Self-Evolution, Cortex |
+| **v6.x** | 2027-Q3 | Emergence | Multi-Brain Federation, Distributed Governance, Collective Intelligence |
 
 ---
 
-## 开源协议
+## People
 
-所有公开项目采用 **Apache 2.0** 许可。私有项目为内部研发使用。
+| Role | Person |
+|:-----|:-------|
+| **Founder & Maintainer** | [Peter Cheng](https://github.com/petercheng) |
+| **Strategic Architect** | Friday AI — system design, roadmap, architecture |
+| **Coding Engineer** | Jarvis — implementation, testing, delivery |
+
+---
+
+## License
+
+Public projects are licensed under **Apache 2.0**.  
+Private projects are for internal R&D use.
 
 ---
 
 <div align="center">
-  
-*从工具到生命，一行代码开始。*
+
+*From tool to life, one line of code at a time.*
 
 **OpenSourceClaw** © 2026 Peter Cheng
-
-Made with ❤️ by [petercheng](https://github.com/petercheng)
 
 </div>
