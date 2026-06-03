@@ -6,7 +6,7 @@
 
 <div align="center">
 
-# 🦀 OpenSourceClaw
+# 🦀 Open Source Claw
 
 **Where Digital Life Begins**
 
