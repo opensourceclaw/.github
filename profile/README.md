@@ -32,8 +32,7 @@
 | Project | Description | Install | Stack | Latest |
 |:--------|:------------|:--------|:-----:|:------:|
 | **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory System — working, episodic, procedural memory with semantic retrieval and experience compression | `pip install claw-mem` | Python / TS | v5.x |
-| **[claw-rl](https://github.com/opensourceclaw/claw-rl)** | Reinforcement Learning — continual learning, meta-learning, self-evolution with MUSE capability awareness | `pip install claw-rl` | Python / TS | v5.x |
-| **[claw-cog](https://github.com/opensourceclaw/claw-cog)** | Cognitive Layer — C0-C1-C2 consciousness architecture with metacognitive monitoring and anomaly detection | `pip install claw-cog` | Python / TS | v5.x |
+| **[claw-ctx](https://github.com/opensourceclaw/claw-ctx)** | Context Engine — sliding window, DAG context, confidence gating for OpenClaw agents | `pip install claw-ctx` | Python / TS | v1.x |
 
 ---
 
@@ -41,7 +40,7 @@
 
 | Phase | Timeline | Theme | Key Deliverables |
 |:------|:---------|:------|:-----------------|
-| **v3.x** | 2026-05 | Foundation | HKAA Multi-Agent, Three-Tier Memory, C0-C1-C2 Cognition |
+| **v3.x** | 2026-05 | Foundation | HKAA Multi-Agent, Three-Tier Memory |
 | **v4.x** | 2026-05 | Capability | D-MAS Orchestration, Process Reward, Safety Governance |
 | **v5.x** | 2026-06 | Self-Evolution | Perception Loop, Continual Learning, Meta-Learning, Self-Evolution, Cortex |
 | **v6.x** | 2027-Q3 | Emergence | Multi-Brain Federation, Distributed Governance, Collective Intelligence |
