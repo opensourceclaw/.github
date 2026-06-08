@@ -54,7 +54,7 @@
 | **Founder & Maintainer** | [Peter Cheng](https://github.com/petercheng) |
 | **Architect** | Friday AI |
 | **Dev Engineer** | Jarvis AI |
-| **QA Engineer** | Jarvis AI |
+| **QA Engineer** | Edith AI |
 
 ---
 
