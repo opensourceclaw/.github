@@ -31,8 +31,8 @@
 
 | Project | Description | Install | Stack | Latest |
 |:--------|:------------|:--------|:-----:|:------:|
-| **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory System — working, episodic, procedural memory with semantic retrieval and experience compression | `pip install claw-mem` | Python / TS | v5.x |
-| **[claw-ctx](https://github.com/opensourceclaw/claw-ctx)** | Context Engine — sliding window, DAG context, confidence gating for OpenClaw agents | `pip install claw-ctx` | Python / TS | v1.x |
+| **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory System — working, episodic, procedural memory with semantic retrieval and experience compression | `pip install claw-mem` | TS | v5.x |
+| **[claw-ctx](https://github.com/opensourceclaw/claw-ctx)** | Context Engine — sliding window, DAG context, confidence gating for OpenClaw agents | `pip install claw-ctx` | TS | v4.x |
 
 ---
 
@@ -52,8 +52,9 @@
 | Role | Person |
 |:-----|:-------|
 | **Founder & Maintainer** | [Peter Cheng](https://github.com/petercheng) |
-| **Strategic Architect** | Friday AI |
-| **Coding Engineer** | Jarvis |
+| **Architect** | Friday AI |
+| **Dev Engineer** | Jarvis AI |
+| **QA Engineer** | Jarvis AI |
 
 ---
 
