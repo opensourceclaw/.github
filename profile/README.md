@@ -12,7 +12,6 @@
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-green)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)
 
 ---
@@ -25,14 +24,99 @@
 >
 > From single agent tool use, to inter-cortex signal correlation, to collective intelligence emergence — we explore every stage of the journey from tool to life.
 
+## Mission
+
+> **Empower developers to build production-ready AI agents with Loop Engineering and Harness Engineering frameworks.**
+>
+> We provide:
+> - **devclaw**: AI-native digital engineering paradigm (Harness Layer)
+> - **claw-mem**: Intelligent three-tier memory system
+> - **claw-ctx**: Context engine for agent state management
+> - **claw-gov**: Cognitive governance framework
+> - **claw-rl**: Reinforcement learning system
+
+## Values
+
+| Value | Description |
+|:------|:------------|
+| **Production-First** | From demo to production — every project must be shippable |
+| **Loop Engineering** | Design systems that prompt agents, not prompts themselves |
+| **Triple-Role Collaboration** | A (Planning) + B (Development) + C (QA) for reliable delivery |
+| **Value Alignment** | Safety and ethics built into the architecture |
+| **Open Evolution** | Open source, community-driven, continuous improvement |
+
 ---
 
 ## Public Projects
 
 | Project | Description | Install | Stack | Latest |
 |:--------|:------------|:--------|:-----:|:------:|
-| **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory System — working, episodic, procedural memory with semantic retrieval and experience compression | `pip install claw-mem` | TS | v5.x |
-| **[claw-ctx](https://github.com/opensourceclaw/claw-ctx)** | Context Engine — sliding window, DAG context, confidence gating for OpenClaw agents | `pip install claw-ctx` | TS | v4.x |
+| **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory System — working, episodic, procedural memory with semantic retrieval and experience compression | `npm install @opensourceclaw/claw-mem` | TS | v6.15.1 |
+| **[claw-ctx](https://github.com/opensourceclaw/claw-ctx)** | Context Engine — sliding window, DAG context, confidence gating for OpenClaw agents | `npm install @opensourceclaw/claw-ctx` | TS | v6.1.0 |
+| **[claw-gov](https://github.com/opensourceclaw/claw-gov)** | Six-Layer Cognitive Governance — intent alignment, value constraints, safety boundaries | `pip install claw-gov` | Python | v5.2.0 |
+
+---
+
+## Architecture Overview
+
+### Loop Engineering Framework
+
+Our **Triple-Role Agent System** implements Loop Engineering:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│              Friday (A - Project Manager)                   │
+│  • Requirements Analysis  • Architecture  • Acceptance      │
+└──────────────────────────┬──────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────────┐
+│              Jarvis (B - Developer)                         │
+│  • Design  • Implementation  • Unit/Integration Tests       │
+└──────────────────────────┬──────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────────┐
+│              Edith (C - QA Engineer)                        │
+│  • Independent Testing  • Exploratory Testing  • Release    │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Harness Layer: devclaw RSI
+
+The **devclaw** project provides production-grade harness:
+
+- **Tool System**: 75+ model routing
+- **Memory**: claw-mem three-tier storage
+- **Sandbox**: Secure execution environment
+- **Security**: Permission control, audit logging
+- **Context Assembly**: Intelligent context management
+
+---
+
+## Quick Start
+
+### TypeScript Projects (claw-mem, claw-ctx)
+
+```bash
+# Install via npm
+npm install @opensourceclaw/claw-mem
+npm install @opensourceclaw/claw-ctx
+
+# Or use latest from GitHub
+npm install github:opensourceclaw/claw-mem
+npm install github:opensourceclaw/claw-ctx
+```
+
+### Python Projects (claw-gov)
+
+```bash
+pip install claw-gov
+
+# With optional dependencies
+pip install claw-gov[memory]    # claw-mem integration
+pip install claw-gov[full]      # all optional deps
+```
 
 ---
 
