@@ -29,11 +29,8 @@
 > **Empower developers to build production-ready AI agents with Loop Engineering and Harness Engineering frameworks.**
 >
 > We provide:
-> - **devclaw**: AI-native digital engineering paradigm (Harness Layer)
 > - **claw-mem**: Intelligent three-tier memory system
 > - **claw-ctx**: Context engine for agent state management
-> - **claw-gov**: Cognitive governance framework
-> - **claw-rl**: Reinforcement learning system
 
 ## Values
 
@@ -53,7 +50,6 @@
 |:--------|:------------|:--------|:-----:|:------:|
 | **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory System — working, episodic, procedural memory with semantic retrieval and experience compression | `npm install @opensourceclaw/claw-mem` | TS | v6.15.1 |
 | **[claw-ctx](https://github.com/opensourceclaw/claw-ctx)** | Context Engine — sliding window, DAG context, confidence gating for OpenClaw agents | `npm install @opensourceclaw/claw-ctx` | TS | v6.1.0 |
-| **[claw-gov](https://github.com/opensourceclaw/claw-gov)** | Six-Layer Cognitive Governance — intent alignment, value constraints, safety boundaries | `pip install claw-gov` | Python | v5.2.0 |
 
 ---
 
@@ -82,16 +78,6 @@ Our **Triple-Role Agent System** implements Loop Engineering:
 └─────────────────────────────────────────────────────────────┘
 ```
 
-### Harness Layer: devclaw RSI
-
-The **devclaw** project provides production-grade harness:
-
-- **Tool System**: 75+ model routing
-- **Memory**: claw-mem three-tier storage
-- **Sandbox**: Secure execution environment
-- **Security**: Permission control, audit logging
-- **Context Assembly**: Intelligent context management
-
 ---
 
 ## Quick Start
@@ -108,15 +94,6 @@ npm install github:opensourceclaw/claw-mem
 npm install github:opensourceclaw/claw-ctx
 ```
 
-### Python Projects (claw-gov)
-
-```bash
-pip install claw-gov
-
-# With optional dependencies
-pip install claw-gov[memory]    # claw-mem integration
-pip install claw-gov[full]      # all optional deps
-```
 
 ---
 
