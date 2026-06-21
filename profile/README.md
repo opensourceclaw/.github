@@ -20,17 +20,20 @@
 
 ## Vision
 
-> **Build an open, evolvable, value-aligned digital life system.**
+> **Build an open, evolvable digital life system through engineering and commercialization.**
 >
-> From single agent tool use, to inter-cortex signal correlation, to collective intelligence emergence — we explore every stage of the journey from tool to life.
+> From single agent tool use, to multi-cortex signal correlation, to collective intelligence emergence — we explore every stage of the journey from tool to life.
+>
+> We pursue **dual-track advancement** (top-down + bottom-up) to achieve engineering落地 + 商业化 goals.
 
 ## Mission
 
 > **Empower developers to build production-ready AI agents with Loop Engineering and Harness Engineering frameworks.**
 >
-> We provide:
-> - **claw-mem**: Intelligent three-tier memory system
-> - **claw-ctx**: Context engine for agent state management
+> Through **Project Digital Life**, we provide a three-tier architecture:
+> - **Project Neo** (Application Layer): AI Agent applications (neoclaw, devclaw, deepclaw, workclaw)
+> - **Project Matrix** (Agent Infrastructure): Core components (claw-mem, claw-ctx, claw-gov, claw-rl, claw-cog, etc.)
+> - **Project Grid** (Network Infrastructure): Decentralized services (claw-net, claw-link, claw-id, etc.)
 
 ## Values
 
@@ -39,7 +42,8 @@
 | **Production-First** | From demo to production — every project must be shippable |
 | **Loop Engineering** | Design systems that prompt agents, not prompts themselves |
 | **Triple-Role Collaboration** | A (Planning) + B (Development) + C (QA) for reliable delivery |
-| **Value Alignment** | Safety and ethics built into the architecture |
+| **Dual-Track Advancement** | Top-down (application dimensions) + Bottom-up (component exploration) |
+| **Engineering + Commercialization** | Build for production, pursue business opportunities |
 | **Open Evolution** | Open source, community-driven, continuous improvement |
 
 ---
@@ -53,9 +57,31 @@
 
 ---
 
-## Architecture Overview
+## Project Digital Life Architecture
 
-### Loop Engineering Framework
+### Three-Tier System
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    Project Neo (Application Layer)            │
+│   neoclaw │ devclaw │ deepclaw │ workclaw                 │
+└───────────────────────────┬─────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────────┐
+│                Project Matrix (Agent Infrastructure)          │
+│  claw-mem │ claw-ctx │ claw-gov │ claw-rl │ claw-cog   │
+│  claw-rsi │ claw-sec │ claw-obs │ claw-eva               │
+└───────────────────────────┬─────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────────┐
+│                Project Grid (Network Infrastructure)          │
+│   claw-net │ claw-link │ claw-id │ claw-crypt │ claw-trust │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Triple-Role Agent System
 
 Our **Triple-Role Agent System** implements Loop Engineering:
 
@@ -68,13 +94,13 @@ Our **Triple-Role Agent System** implements Loop Engineering:
                            ▼
 ┌─────────────────────────────────────────────────────────────┐
 │              Jarvis (B - Developer)                         │
-│  • Design  • Implementation  • Unit/Integration Tests     │
+│  • Design  • Implementation  • Unit/Integration Tests       │
 └──────────────────────────┬──────────────────────────────────┘
                            │
                            ▼
 ┌─────────────────────────────────────────────────────────────┐
 │              Edith (C - QA Engineer)                       │
-│  • Independent Testing  • Exploratory Testing  • Release    │
+│  • Independent Testing  • Exploratory Testing  • Release   │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -93,7 +119,6 @@ npm install @opensourceclaw/claw-ctx
 npm install github:opensourceclaw/claw-mem
 npm install github:opensourceclaw/claw-ctx
 ```
-
 
 ---
 
