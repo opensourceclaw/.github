@@ -60,16 +60,6 @@
 | **Privacy Protection** | Personal memory and consciousness data strictly protected |
 | **Equal Access** | Digital life technology should benefit all humanity |
 
-### Operating Principles
-
-| Value | Description |
-|:------|:------------|
-| **Production-First** | Every project must be shippable |
-| **Loop Engineering** | Design systems that prompt agents, not prompts themselves |
-| **Triple-Role Collaboration** | A (Planning) + B (Development) + C (QA) |
-| **Dual-Track Advancement** | Top-down + Bottom-up |
-| **Engineering + Commercialization** | Build for production, pursue business |
-
 ---
 
 ## Public Projects
