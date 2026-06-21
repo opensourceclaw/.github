@@ -48,8 +48,8 @@
 
 | Project | Description | Install | Stack | Latest |
 |:--------|:------------|:--------|:-----:|:------:|
-| **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory System — working, episodic, procedural memory with semantic retrieval and experience compression | `npm install @opensourceclaw/claw-mem` | TS | v6.15.1 |
-| **[claw-ctx](https://github.com/opensourceclaw/claw-ctx)** | Context Engine — sliding window, DAG context, confidence gating for OpenClaw agents | `npm install @opensourceclaw/claw-ctx` | TS | v6.1.0 |
+| **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory System — working, episodic, procedural memory with semantic retrieval and experience compression | `npm install @opensourceclaw/claw-mem` | TS | v6.26.8 |
+| **[claw-ctx](https://github.com/opensourceclaw/claw-ctx)** | Context Engine — cross-domain fusion, adaptive injection, multi-style prompts, predictive context, version evolution | `npm install @opensourceclaw/claw-ctx` | TS | v5.0.0 |
 
 ---
 
@@ -68,12 +68,12 @@ Our **Triple-Role Agent System** implements Loop Engineering:
                            ▼
 ┌─────────────────────────────────────────────────────────────┐
 │              Jarvis (B - Developer)                         │
-│  • Design  • Implementation  • Unit/Integration Tests       │
+│  • Design  • Implementation  • Unit/Integration Tests     │
 └──────────────────────────┬──────────────────────────────────┘
                            │
                            ▼
 ┌─────────────────────────────────────────────────────────────┐
-│              Edith (C - QA Engineer)                        │
+│              Edith (C - QA Engineer)                       │
 │  • Independent Testing  • Exploratory Testing  • Release    │
 └─────────────────────────────────────────────────────────────┘
 ```
