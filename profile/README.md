@@ -21,8 +21,6 @@
 ## Vision
 
 > **"In the age of AI, human civilization can continue in digital form and explore the universe."**
->
-> **"在 AI 时代,人类文明可以以数字形式延续,探索宇宙."**
 
 ### We Hold These Truths:
 
@@ -76,7 +74,7 @@
 
 ## Motto
 
-> **"NeoClaw - Where Digital Life Begins"**
+> **"Where Digital Life Begins"**
 >
 > *"Ad Astra Per Aspera"* — Through Hardship to the Stars
 
@@ -97,19 +95,19 @@
 
 ```
 ┌─────────────────────────────────────────────┐
-│  Project Neo (Application Layer)            │
-│  neoclaw │ devclaw │ deepclaw │ workclaw  │
+│  Project Neo (Application Layer)              │
+│  neoclaw │ devclaw │ deepclaw │ workclaw   │
 └──────────────────┬──────────────────────────┘
                    │
 ┌──────────────────▼──────────────────────────┐
-│  Project Matrix (Agent Infrastructure)        │
-│  claw-mem │ claw-ctx │ claw-gov │ claw-rl  │
+│  Project Matrix (Agent Infrastructure)         │
+│  claw-mem │ claw-ctx │ claw-gov │ claw-rl │
 │  claw-cog │ claw-rsi │ claw-sec │ claw-obs  │
 └──────────────────┬──────────────────────────┘
                    │
 ┌──────────────────▼──────────────────────────┐
-│  Project Grid (Network Infrastructure)       │
-│  claw-net │ claw-link │ claw-id │ claw-crypt│
+│  Project Grid (Network Infrastructure)        │
+│  claw-net │ claw-link │ claw-id │ claw-crypt │
 └─────────────────────────────────────────────┘
 ```
 
@@ -117,17 +115,17 @@
 
 ```
 ┌────────────────────────────────────┐
-│  Friday (A - Project Manager)      │
-│  Planning │ Architecture │ Accept  │
+│  Friday (A - Project Manager)       │
+│  Planning │ Architecture │ Accept   │
 └────────────────┬───────────────────┘
                  │
 ┌────────────────▼───────────────────┐
-│  Jarvis (B - Developer)            │
-│  Design │ Implement │ Test        │
+│  Jarvis (B - Developer)             │
+│  Design │ Implement │ Test         │
 └────────────────┬───────────────────┘
                  │
 ┌────────────────▼───────────────────┐
-│  Edith (C - QA Engineer)          │
+│  Edith (C - QA Engineer)           │
 │  Testing │ Validation │ Release    │
 └────────────────────────────────────┘
 ```
