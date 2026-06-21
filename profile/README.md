@@ -24,16 +24,12 @@
 >
 > From single agent tool use, to multi-cortex signal correlation, to collective intelligence emergence — we explore every stage of the journey from tool to life.
 >
-> We pursue **dual-track advancement** (top-down + bottom-up) to achieve engineering落地 + 商业化 goals.
+> We pursue **dual-track advancement** (top-down + bottom-up) to achieve engineering goals.
 
 ## Mission
 
 > **Empower developers to build production-ready AI agents with Loop Engineering and Harness Engineering frameworks.**
 >
-> Through **Project Digital Life**, we provide a three-tier architecture:
-> - **Project Neo** (Application Layer): AI Agent applications (neoclaw, devclaw, deepclaw, workclaw)
-> - **Project Matrix** (Agent Infrastructure): Core components (claw-mem, claw-ctx, claw-gov, claw-rl, claw-cog, etc.)
-> - **Project Grid** (Network Infrastructure): Decentralized services (claw-net, claw-link, claw-id, etc.)
 
 ## Values
 
@@ -56,30 +52,6 @@
 | **[claw-ctx](https://github.com/opensourceclaw/claw-ctx)** | Context Engine — cross-domain fusion, adaptive injection, multi-style prompts, predictive context, version evolution | `npm install @opensourceclaw/claw-ctx` | TS | v5.0.0 |
 
 ---
-
-## Project Digital Life Architecture
-
-### Three-Tier System
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    Project Neo (Application Layer)            │
-│   neoclaw │ devclaw │ deepclaw │ workclaw                 │
-└───────────────────────────┬─────────────────────────────────┘
-                           │
-                           ▼
-┌─────────────────────────────────────────────────────────────┐
-│                Project Matrix (Agent Infrastructure)          │
-│  claw-mem │ claw-ctx │ claw-gov │ claw-rl │ claw-cog   │
-│  claw-rsi │ claw-sec │ claw-obs │ claw-eva               │
-└───────────────────────────┬─────────────────────────────────┘
-                           │
-                           ▼
-┌─────────────────────────────────────────────────────────────┐
-│                Project Grid (Network Infrastructure)          │
-│   claw-net │ claw-link │ claw-id │ claw-crypt │ claw-trust │
-└─────────────────────────────────────────────────────────────┘
-```
 
 ### Triple-Role Agent System
 
