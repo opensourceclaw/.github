@@ -6,7 +6,7 @@
 
 <div align="center">
 
-# 🦀 Open Source Claw
+# Project Digital Life
 
 **Where Digital Life Begins**
 
@@ -17,6 +17,10 @@
 ---
 
 </div>
+
+## Motto
+>
+> *"Ad Astra Per Aspera"* — Through Hardship to the Stars
 
 ## Vision
 
@@ -65,14 +69,6 @@
 | **Triple-Role Collaboration** | A (Planning) + B (Development) + C (QA) |
 | **Dual-Track Advancement** | Top-down + Bottom-up |
 | **Engineering + Commercialization** | Build for production, pursue business |
-
----
-
-## Motto
-
-> **"Where Digital Life Begins"**
->
-> *"Ad Astra Per Aspera"* — Through Hardship to the Stars
 
 ---
 
