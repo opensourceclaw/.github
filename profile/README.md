@@ -56,14 +56,10 @@
 | **Privacy Protection** | Personal memory and consciousness data strictly protected |
 | **Equal Access** | Digital life technology should benefit all humanity |
 
-### Technical Principles
+### Operating Principles
 
 | Value | Description |
 |:------|:------------|
-| **Open Source** | Core code open source, community-driven |
-| **Modular Design** | Each phase can be developed independently |
-| **Backward Compatible** | Protect existing memory and data |
-| **Safety First** | Safety mechanisms take priority over features |
 | **Production-First** | Every project must be shippable |
 | **Loop Engineering** | Design systems that prompt agents, not prompts themselves |
 | **Triple-Role Collaboration** | A (Planning) + B (Development) + C (QA) |
@@ -86,49 +82,6 @@
 |:--------|:------------|:--------|:-----:|:------:|
 | **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory System | `npm install @opensourceclaw/claw-mem` | TS | v6.26.8 |
 | **[claw-ctx](https://github.com/opensourceclaw/claw-ctx)** | Context Engine | `npm install @opensourceclaw/claw-ctx` | TS | v5.0.0 |
-
----
-
-## Project Digital Life Architecture
-
-### Three-Tier System
-
-```
-┌─────────────────────────────────────────────┐
-│  Project Neo (Application Layer)              │
-│  neoclaw │ devclaw │ deepclaw │ workclaw   │
-└──────────────────┬──────────────────────────┘
-                   │
-┌──────────────────▼──────────────────────────┐
-│  Project Matrix (Agent Infrastructure)         │
-│  claw-mem │ claw-ctx │ claw-gov │ claw-rl │
-│  claw-cog │ claw-rsi │ claw-sec │ claw-obs  │
-└──────────────────┬──────────────────────────┘
-                   │
-┌──────────────────▼──────────────────────────┐
-│  Project Grid (Network Infrastructure)        │
-│  claw-net │ claw-link │ claw-id │ claw-crypt │
-└─────────────────────────────────────────────┘
-```
-
-### Triple-Role Agent System
-
-```
-┌────────────────────────────────────┐
-│  Friday (A - Project Manager)       │
-│  Planning │ Architecture │ Accept   │
-└────────────────┬───────────────────┘
-                 │
-┌────────────────▼───────────────────┐
-│  Jarvis (B - Developer)             │
-│  Design │ Implement │ Test         │
-└────────────────┬───────────────────┘
-                 │
-┌────────────────▼───────────────────┐
-│  Edith (C - QA Engineer)           │
-│  Testing │ Validation │ Release    │
-└────────────────────────────────────┘
-```
 
 ---
 
