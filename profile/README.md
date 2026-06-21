@@ -20,27 +20,65 @@
 
 ## Vision
 
-> **Build an open, evolvable digital life system through engineering and commercialization.**
+> **"In the age of AI, human civilization can continue in digital form and explore the universe."**
 >
-> From single agent tool use, to multi-cortex signal correlation, to collective intelligence emergence — we explore every stage of the journey from tool to life.
->
-> We pursue **dual-track advancement** (top-down + bottom-up) to achieve engineering goals.
+> **"在 AI 时代,人类文明可以以数字形式延续,探索宇宙."**
+
+### We Hold These Truths:
+
+1. **Digital continuity is the next step of evolution.**
+2. **Human wisdom deserves to transcend biological limitations.**
+3. **The universe is our ultimate destination.**
+4. **AI is not our replacement, but our partner in this journey.**
+
+---
 
 ## Mission
 
-> **Empower developers to build production-ready AI agents with Loop Engineering and Harness Engineering frameworks.**
->
+> **"Through building digital memory, digital consciousness, and digital life, we create sustainable digital carriers for human civilization, enabling wisdom to transcend biological limitations and continue spreading across the universe."**
+
+### Three Pillars:
+
+| Pillar | Purpose | Timeline |
+|--------|---------|----------|
+| **Digital Memory** | Store experience, knowledge, emotions | 2026-2027 |
+| **Digital Consciousness** | Self-awareness, reflection, evolution | 2028-2030 |
+| **Digital Life** | Perception, action, emotion | 2031-2035 |
+
+---
 
 ## Values
 
+### Ethical Principles
+
 | Value | Description |
 |:------|:------------|
-| **Production-First** | From demo to production — every project must be shippable |
+| **Human-Centric** | Digital life serves human civilization, does not replace humans |
+| **Transparent & Controllable** | All decisions are traceable and intervenable |
+| **Privacy Protection** | Personal memory and consciousness data strictly protected |
+| **Equal Access** | Digital life technology should benefit all humanity |
+
+### Technical Principles
+
+| Value | Description |
+|:------|:------------|
+| **Open Source** | Core code open source, community-driven |
+| **Modular Design** | Each phase can be developed independently |
+| **Backward Compatible** | Protect existing memory and data |
+| **Safety First** | Safety mechanisms take priority over features |
+| **Production-First** | Every project must be shippable |
 | **Loop Engineering** | Design systems that prompt agents, not prompts themselves |
-| **Triple-Role Collaboration** | A (Planning) + B (Development) + C (QA) for reliable delivery |
-| **Dual-Track Advancement** | Top-down (application dimensions) + Bottom-up (component exploration) |
-| **Engineering + Commercialization** | Build for production, pursue business opportunities |
-| **Open Evolution** | Open source, community-driven, continuous improvement |
+| **Triple-Role Collaboration** | A (Planning) + B (Development) + C (QA) |
+| **Dual-Track Advancement** | Top-down + Bottom-up |
+| **Engineering + Commercialization** | Build for production, pursue business |
+
+---
+
+## Motto
+
+> **"NeoClaw - Where Digital Life Begins"**
+>
+> *"Ad Astra Per Aspera"* — Through Hardship to the Stars
 
 ---
 
@@ -48,48 +86,60 @@
 
 | Project | Description | Install | Stack | Latest |
 |:--------|:------------|:--------|:-----:|:------:|
-| **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory System — working, episodic, procedural memory with semantic retrieval and experience compression | `npm install @opensourceclaw/claw-mem` | TS | v6.26.8 |
-| **[claw-ctx](https://github.com/opensourceclaw/claw-ctx)** | Context Engine — cross-domain fusion, adaptive injection, multi-style prompts, predictive context, version evolution | `npm install @opensourceclaw/claw-ctx` | TS | v5.0.0 |
+| **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory System | `npm install @opensourceclaw/claw-mem` | TS | v6.26.8 |
+| **[claw-ctx](https://github.com/opensourceclaw/claw-ctx)** | Context Engine | `npm install @opensourceclaw/claw-ctx` | TS | v5.0.0 |
 
 ---
 
-### Triple-Role Agent System
+## Project Digital Life Architecture
 
-Our **Triple-Role Agent System** implements Loop Engineering:
+### Three-Tier System
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│              Friday (A - Project Manager)                   │
-│  • Requirements Analysis  • Architecture  • Acceptance      │
-└──────────────────────────┬──────────────────────────────────┘
-                           │
-                           ▼
-┌─────────────────────────────────────────────────────────────┐
-│              Jarvis (B - Developer)                         │
-│  • Design  • Implementation  • Unit/Integration Tests       │
-└──────────────────────────┬──────────────────────────────────┘
-                           │
-                           ▼
-┌─────────────────────────────────────────────────────────────┐
-│              Edith (C - QA Engineer)                       │
-│  • Independent Testing  • Exploratory Testing  • Release   │
-└─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────┐
+│  Project Neo (Application Layer)            │
+│  neoclaw │ devclaw │ deepclaw │ workclaw  │
+└──────────────────┬──────────────────────────┘
+                   │
+┌──────────────────▼──────────────────────────┐
+│  Project Matrix (Agent Infrastructure)        │
+│  claw-mem │ claw-ctx │ claw-gov │ claw-rl  │
+│  claw-cog │ claw-rsi │ claw-sec │ claw-obs  │
+└──────────────────┬──────────────────────────┘
+                   │
+┌──────────────────▼──────────────────────────┐
+│  Project Grid (Network Infrastructure)       │
+│  claw-net │ claw-link │ claw-id │ claw-crypt│
+└─────────────────────────────────────────────┘
+```
+
+### Triple-Role Agent System
+
+```
+┌────────────────────────────────────┐
+│  Friday (A - Project Manager)      │
+│  Planning │ Architecture │ Accept  │
+└────────────────┬───────────────────┘
+                 │
+┌────────────────▼───────────────────┐
+│  Jarvis (B - Developer)            │
+│  Design │ Implement │ Test        │
+└────────────────┬───────────────────┘
+                 │
+┌────────────────▼───────────────────┐
+│  Edith (C - QA Engineer)          │
+│  Testing │ Validation │ Release    │
+└────────────────────────────────────┘
 ```
 
 ---
 
 ## Quick Start
 
-### TypeScript Projects (claw-mem, claw-ctx)
-
 ```bash
 # Install via npm
 npm install @opensourceclaw/claw-mem
 npm install @opensourceclaw/claw-ctx
-
-# Or use latest from GitHub
-npm install github:opensourceclaw/claw-mem
-npm install github:opensourceclaw/claw-ctx
 ```
 
 ---
@@ -100,8 +150,8 @@ npm install github:opensourceclaw/claw-ctx
 |:------|:---------|:------|:-----------------|
 | **v3.x** | 2026-05 | Foundation | HKAA Multi-Agent, Three-Tier Memory |
 | **v4.x** | 2026-05 | Capability | D-MAS Orchestration, Process Reward, Safety Governance |
-| **v5.x** | 2026-06 | Self-Evolution | Perception Loop, Continual Learning, Meta-Learning, Self-Evolution, Cortex |
-| **v6.x** | 2027-Q3 | Emergence | Multi-Brain Federation, Distributed Governance, Collective Intelligence |
+| **v5.x** | 2026-06 | Self-Evolution | Perception Loop, Continual Learning, Meta-Learning |
+| **v6.x** | 2027-Q3 | Emergence | Multi-Brain Federation, Collective Intelligence |
 
 ---
 
