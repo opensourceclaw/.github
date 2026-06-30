@@ -64,20 +64,10 @@
 
 ## Public Projects
 
-| Project | Description | Install | Stack | Latest |
-|:--------|:------------|:--------|:-----:|:------:|
-| **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory System | `npm install @opensourceclaw/claw-mem` | TS | v6.26.8 |
-| **[claw-ctx](https://github.com/opensourceclaw/claw-ctx)** | Context Engine | `npm install @opensourceclaw/claw-ctx` | TS | v5.0.0 |
-
----
-
-## Quick Start
-
-```bash
-# Install via npm
-npm install @opensourceclaw/claw-mem
-npm install @opensourceclaw/claw-ctx
-```
+| Project | Description | Stack | Latest |
+|:--------|:------------|:--------|:------:|
+| **[claw-mem](https://github.com/opensourceclaw/claw-mem)** | Three-Tier Memory System | TS | v6.26.8 |
+| **[claw-ctx](https://github.com/opensourceclaw/claw-ctx)** | Context Engine | TS | v5.0.0 |
 
 ---
 
