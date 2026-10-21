@@ -84,12 +84,14 @@
 
 ## People
 
-| Role | Person |
-|:-----|:-------|
-| **Founder & Maintainer** | [Peter Cheng](https://github.com/petercheng) |
-| **Architect** | Friday AI |
-| **Dev Engineer** | Jarvis AI |
-| **QA Engineer** | Edith AI |
+| Identity | Role | Person |
+|:-----|:-------|:-------|
+| **Captain** | Founder & Maintainer** | [Peter Cheng](https://github.com/petercheng) |
+| **Crew** | Architect | Friday AI |
+| **Crew** | Dev Engineer | Jarvis AI |
+| **Crew** | QA Engineer | Edith AI |
+| **Crew** | Release Engineer | Karen AI |
+| **Crew** | TBD| Vision AI |
 
 ---
 
