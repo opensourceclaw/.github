@@ -86,7 +86,7 @@
 
 | Identity | Role | Person |
 |:-----|:-------|:-------|
-| **Captain** | Founder & Maintainer** | [Peter Cheng](https://github.com/petercheng) |
+| **Captain** | Founder & Maintainer | [Peter Cheng](https://github.com/petercheng) |
 | **Crew** | Architect | Friday AI |
 | **Crew** | Dev Engineer | Jarvis AI |
 | **Crew** | QA Engineer | Edith AI |
