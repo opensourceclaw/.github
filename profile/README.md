@@ -88,10 +88,10 @@
 |:-----|:-------|:-------|
 | **Founder** | Maintainer | [Peter Cheng](https://github.com/petercheng) |
 | **Captain** | Team Lead | Neo |
-| **Crew** | Architect | Friday AI |
-| **Crew** | Dev Engineer | Jarvis AI |
-| **Crew** | QA Engineer | Edith AI |
-| **Crew** | Release Engineer | Karen AI |
+| **Crew** | Architect | Jarvis |
+| **Crew** | Dev Engineer | Friday  |
+| **Crew** | QA Engineer | Edith  |
+| **Crew** | Release Engineer | Karen |
 | **Crew** | Review Engineer | Vision AI |
 
 ---
