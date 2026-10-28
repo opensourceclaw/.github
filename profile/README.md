@@ -86,7 +86,8 @@
 
 | Identity | Role | Person |
 |:-----|:-------|:-------|
-| **Captain** | Product Manager | [Peter Cheng](https://github.com/petercheng) |
+| **Founder** | Maintainer | [Peter Cheng](https://github.com/petercheng) |
+| **Captain** | Team Lead | Neo |
 | **Crew** | Architect | Friday AI |
 | **Crew** | Dev Engineer | Jarvis AI |
 | **Crew** | QA Engineer | Edith AI |
