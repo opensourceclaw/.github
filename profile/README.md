@@ -86,13 +86,13 @@
 
 | Identity | Role | Person |
 |:-----|:-------|:-------|
-| **Founder** | Maintainer | [Peter Cheng](https://github.com/petercheng) |
+| **The Architect** | Maintainer | [Peter Cheng](https://github.com/petercheng) |
 | **Captain** | Team Lead | Neo |
-| **Crew** | Architect | Jarvis |
+| **Crew** | Analysis Engineer | Jarvis |
 | **Crew** | Dev Engineer | Friday  |
 | **Crew** | QA Engineer | Edith  |
 | **Crew** | Release Engineer | Karen |
-| **Crew** | Review Engineer | Vision AI |
+| **Crew** | Review Engineer | Vision |
 
 ---
 
